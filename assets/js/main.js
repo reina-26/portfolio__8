@@ -1,0 +1,1 @@
+(function(){const a=document.querySelector("body");const c=document.querySelector(".js-button-hamburger");function b(){a.classList.toggle("is-active-gnav")}c.addEventListener("click",b)})();$(document).ready(function(){$(".fv-slider").slick({autoplay:true,autoplaySpeed:10000,arrows:false,fade:true,speed:3000,infinite:true,pauseOnHover:false})});
