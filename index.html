@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="練習用架空サイトです。">
-    <meta name="robots" content="noindex,nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="練習用架空サイトです。">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="./assets/css/initialize.css" rel="stylesheet" type="text/css">
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="./assets/css/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-    <!-- フォント設定 -->
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Serif+JP:600,700&display=swap" rel="stylesheet">
-    <!-- ファビコン設定 -->
-    <link rel="icon" href="./assets/images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon-152x152.png" sizes="152x152">
-    <link rel="icon" href="./assets/images/favicon/icon-192x192.png" sizes="192x192" type="image/png">
+  <link href="./assets/css/initialize.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/animate.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+  <!-- フォント設定 -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Serif+JP:600,700&display=swap" rel="stylesheet">
+  <!-- ファビコン設定 -->
+  <link rel="icon" href="./assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="icon" href="./assets/images/favicon/icon-192x192.png" sizes="192x192" type="image/png">
 
-    <link rel="canonical" href="#">
+  <link rel="canonical" href="#">
 
-    <title>和風サイト</title>
+  <title>和風サイト</title>
 
-    <!--
+  <!--
     <style>
       p {
         font-family: 'Noto Sans JP', sans-serif;
@@ -32,10 +34,10 @@
       }
     </style>
     -->
-  </head>
+</head>
 <body>
 
-    <!-- ===============================================
+  <!-- ===============================================
           loading
   ================================================ -->
   <div id="loading">
@@ -50,304 +52,305 @@
     <!-- ===============================================
     Header
   ================================================ -->
-<header class="header">
-  <div class="wrap">
-    <div class="header-top">
-      <h1 class="header__logo">
+    <header class="header">
+      <div class="wrap">
+        <div class="header-top">
+          <h1 class="header__logo">
         <a href="#">
           <img src="./assets/images/logo@2x.png" alt="Sample Designのロゴ" />
         </a>
       </h1>
 
-      <div class="button-hamburger js-button-hamburger" aria-controls="global-nav" aria-expanded="false">
-        <span class="screen-reader-text">メニューを開閉する</span>
-        <span class="button-hamburger__bars">
-          <span class="button-hamburger__bar"></span>
-          <span class="button-hamburger__bar"></span>
-          <span class="button-hamburger__bar"></span>
-        </span>
-      </div>
+          <div class="button-hamburger js-button-hamburger" aria-controls="global-nav" aria-expanded="false">
+            <span class="screen-reader-text">メニューを開閉する</span>
+            <span class="button-hamburger__bars">
+              <span class="button-hamburger__bar"></span>
+              <span class="button-hamburger__bar"></span>
+              <span class="button-hamburger__bar"></span>
+            </span>
+          </div>
 
-      <nav id="main-nav" class="main-nav" aria-label="Main">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">メニュー１</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">メニュー２</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">メニュー３</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/about.html" class="main-nav__link">メニュー４</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/faq.html" class="main-nav__link">メニュー５</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/contact.html" class="main-nav__link main-nav__contact">お問い合わせ</a>
-          </li>
-        </ul>
-      </nav><!-- /main-nav -->
+          <nav id="main-nav" class="main-nav" aria-label="Main">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">メニュー１</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">メニュー２</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">メニュー３</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="/about.html" class="main-nav__link">メニュー４</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="/faq.html" class="main-nav__link">メニュー５</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="/contact.html" class="main-nav__link main-nav__contact">お問い合わせ</a>
+              </li>
+            </ul>
+          </nav><!-- /main-nav -->
 
-    </div><!-- /.header-top -->
-  </div><!-- /.wrap -->
-</header>
+        </div><!-- /.header-top -->
+      </div><!-- /.wrap -->
+    </header>
 
-        <!-- ===============================================
+    <!-- ===============================================
     main
   ================================================ -->
-<main class="main">
+    <main class="main">
 
       <!-- ===============================================
     fv
   ================================================ -->
-  <div class="fv">
-    <div class="fv-slider">
-      <div class="fv-slider-img">
-          <img src="./assets/images/main-img@2x.jpg" alt="スライダー画像1">
-      </div>
-      <div class="fv-slider-img">
-          <img src="./assets/images/main-img02@2x@.jpg" alt="スライダー画像2">
-      </div>
-      <div class="fv-slider-img">
-        <img src="./assets/images/main-img03@2x.jpg" alt="スライダー画像3">
-      </div>
-    </div>
-    <div class="fv-img-deco">
-      <img src="./assets/images/main-img-bottom@2x.png" alt="">
-    </div><!-- /.fv-img-deco -->
-  </div><!-- /.fv -->
+      <div class="fv">
+        <div class="fv-slider">
+          <div class="fv-slider-img">
+            <img src="./assets/images/main-img@2x.jpg" alt="スライダー画像1">
+          </div>
+          <div class="fv-slider-img">
+            <img src="./assets/images/main-img02@2x@.jpg" alt="スライダー画像2">
+          </div>
+          <div class="fv-slider-img">
+            <img src="./assets/images/main-img03@2x.jpg" alt="スライダー画像3">
+          </div>
+        </div>
+        <div class="fv-img-deco">
+          <img src="./assets/images/main-img-bottom@2x.png" alt="">
+        </div><!-- /.fv-img-deco -->
+      </div><!-- /.fv -->
 
-    <!-- ===============================================
+      <!-- ===============================================
     about
   ================================================ -->
 
-  <section class="about">
-    <div class="wrap">
-      <div class="about__leader">
-        <div class="about__leader-wrapper">
-          <div class="about__txt-body wow fadeIn" data-wow-delay="1s">
-            <h2 class="about__ttl">ご案内</h2>
-            <p class="about__txt">文章に特に深い意味はありません。本文用なので使い方を間違えると不自然に見えることもありますので要注意。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
-            <p class="about__txt">本文用なので使い方を間違えると不自然に見えることもありますので要注意。カタカナ語が苦手な方は「組見本」と呼ぶとよいでしょう。主に書籍やウェブページなどのデザインを作成する時によく使われます。</p>
-          </div><!-- /.about__txt-body -->
-        </div><!-- /.about__leader-wrapper -->
-        <div class="about__leader-img wow fadeIn" data-wow-delay="0.5s">
-          <img src="./assets/images/section01-leader-img@2x.png" alt="">
-        </div>
-      </div><!-- /.about__leader -->
-      <div class="about__bottom">
-        <div class="about__bottom-wrapper">
-          <div class="about__bottom-content">
-            <h3 class="about__bottom-content-ttl">タイトルテキスト</h3>
-            <div class="about__bottom-content-img">
-              <img src="./assets/images/section01-img01@2x.png" alt="">
-            </div><!-- /.about__content-img -->
-          </div><!-- /.about__bottm-content -->
-          <div class="about__bottom-content">
-            <h3 class="about__bottom-content-ttl">タイトルテキスト</h3>
-            <div class="about__bottom-content-img">
-              <img src="./assets/images/section01-img02@2x.png" alt="">
-            </div><!-- /.about__content-img -->
-          </div><!-- /.about__bottom-content -->
-          <div class="about__bottom-content">
-            <h3 class="about__bottom-content-ttl">タイトルテキスト</h3>
-            <div class="about__bottom-content-img">
-            <img src="./assets/images/section01-img03@2x.png" alt="">
-          </div><!-- /.about__content-img -->
-          </div><!-- /.about__bottom-content -->
-        </div><!-- /.about__bottom-wrapper -->
-      </div><!-- /.about__bottom -->
-    </div><!-- /.wrap -->
-    <div class="br01-wrapper wow slideInLeft" data-wow-duration="4s">
-      <img src="./assets/images/br01@2x.png" alt="">
-    </div><!-- /.br01-wrapper -->
-    <div class="br02-wrapper wow slideInRight" data-wow-duration="1s">
-      <img src="./assets/images/br02@2x.png" alt="">
-    </div><!-- /.br02-wrapper -->
-  </section>
+      <section class="about">
+        <div class="wrap">
+          <div class="about__leader">
+            <div class="about__leader-wrapper">
+              <div class="about__txt-body" data-wow-delay="1s">
+                <h2 data-splitting class="about__ttl text" id="js-txt-animation">ご案内</h2>
+                <p class="about__txt wow fadeIn" data-wow-delay="1.5s">文章に特に深い意味はありません。本文用なので使い方を間違えると不自然に見えることもありますので要注意。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
+                <p class="about__txt wow fadeIn" data-wow-delay="1.5s">本文用なので使い方を間違えると不自然に見えることもありますので要注意。カタカナ語が苦手な方は「組見本」と呼ぶとよいでしょう。主に書籍やウェブページなどのデザインを作成する時によく使われます。</p>
+              </div><!-- /.about__txt-body -->
+            </div><!-- /.about__leader-wrapper -->
+            <div class="about__leader-img wow fadeIn" data-wow-delay="1.7s">
+              <img src="./assets/images/section01-leader-img@2x.png" alt="">
+            </div>
+          </div><!-- /.about__leader -->
+          <div class="about__bottom">
+            <div class="about__bottom-wrapper">
+              <div class="about__bottom-content">
+                <h3 class="about__bottom-content-ttl">タイトルテキスト</h3>
+                <div class="about__bottom-content-img">
+                  <img src="./assets/images/section01-img01@2x.png" alt="">
+                </div><!-- /.about__content-img -->
+              </div><!-- /.about__bottm-content -->
+              <div class="about__bottom-content">
+                <h3 class="about__bottom-content-ttl">タイトルテキスト</h3>
+                <div class="about__bottom-content-img">
+                  <img src="./assets/images/section01-img02@2x.png" alt="">
+                </div><!-- /.about__content-img -->
+              </div><!-- /.about__bottom-content -->
+              <div class="about__bottom-content">
+                <h3 class="about__bottom-content-ttl">タイトルテキスト</h3>
+                <div class="about__bottom-content-img">
+                  <img src="./assets/images/section01-img03@2x.png" alt="">
+                </div><!-- /.about__content-img -->
+              </div><!-- /.about__bottom-content -->
+            </div><!-- /.about__bottom-wrapper -->
+          </div><!-- /.about__bottom -->
+        </div><!-- /.wrap -->
+        <div class="br01-wrapper wow slideInLeft" data-wow-duration="4s">
+          <img src="./assets/images/br01@2x.png" alt="">
+        </div><!-- /.br01-wrapper -->
+        <div class="br02-wrapper wow slideInRight" data-wow-duration="1s">
+          <img src="./assets/images/br02@2x.png" alt="">
+        </div><!-- /.br02-wrapper -->
+      </section>
 
-    <!-- ===============================================
+      <!-- ===============================================
     outline
   ================================================ -->
 
 
-  <section class="outline">
-    <div class="wrap">
-      <div class="outline-content">
-        <h2 class="outline__ttl">概要</h2>
+      <section class="outline">
+        <div class="wrap">
+          <div class="outline-content">
+            <h2 data-splitting class="outline__ttl text">概要</h2>
 
-        <p class="outline__txt">書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
+            <p class="outline__txt">書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
 
-        <p class="outline__txt">主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。なお、組見本の「組」とは文字組のことです。活字印刷時代の用語だったと思います。このダミーテキストは自由に改変することが出来ます。主に書籍やウェブページなどのデザインを作成する時によく使われます。</p>
-        <!-- <p class="outline__txt">書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
+            <p class="outline__txt">主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。なお、組見本の「組」とは文字組のことです。活字印刷時代の用語だったと思います。このダミーテキストは自由に改変することが出来ます。主に書籍やウェブページなどのデザインを作成する時によく使われます。</p>
+            <!-- <p class="outline__txt">書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
 
         <p class="outline__txt">主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。なお、組見本の「組」とは文字組のことです。活字印刷時代の用語だったと思います。このダミーテキストは自由に改変することが出来ます。主に書籍やウェブページなどのデザインを作成する時によく使われます。</p> -->
 
-      </div><!-- /.outline-content -->
-    </div><!-- /.wrap -->
+          </div><!-- /.outline-content -->
+        </div><!-- /.wrap -->
 
-    <div class="outline-img-deco">
-      <img src="./assets/images/main-img-bottom02@2x.png" alt="">
-    </div><!-- /.outline-img-deco -->
-    <div class="outline-img-deco2">
-      <img src="./assets/images/main-img-bottom03@2x.png" alt="">
-    </div><!-- /.outline-img-deco -->
+        <div class="outline-img-deco">
+          <img src="./assets/images/main-img-bottom02@2x.png" alt="">
+        </div><!-- /.outline-img-deco -->
+        <div class="outline-img-deco2">
+          <img src="./assets/images/main-img-bottom03@2x.png" alt="">
+        </div><!-- /.outline-img-deco -->
 
-  </section>
+      </section>
 
-    <!-- ===============================================
+      <!-- ===============================================
     news
   ================================================ -->
 
-  <section class="news">
-    <div class="wrap">
+      <section class="news">
+        <div class="wrap">
 
-      <div class="news__img-wrapper">
-        <div class="news__img">
-          <img src="./assets/images/section02-img01@2x.png" alt="">
-        </div><!-- /.news-img -->
-        <div class="news__img">
-          <img src="./assets/images/section02-img02@2x.png" alt="">
-        </div><!-- /.news-img -->
-        <div class="news__img">
-          <img src="./assets/images/section02-img03@2x.png" alt="">
-        </div><!-- /.news-img -->
-        <div class="news__img">
-          <img src="./assets/images/section02-img04@2x.png" alt="">
-        </div><!-- /.news-img -->
-        <div class="news__img">
-          <img src="./assets/images/section02-img05@2x.png" alt="">
-        </div><!-- /.news-img -->
-        <div class="news__img">
-          <img src="./assets/images/section02-img06@2x.png" alt="">
-        </div><!-- /.news-img -->
-        <div class="news__img">
-          <img src="./assets/images/section02-img07@2x.png" alt="">
-        </div><!-- /.news-img -->
-        <div class="news__img">
-          <img src="./assets/images/section02-img08@2x.png" alt="">
-        </div><!-- /.news-img -->
-      </div>
-
-
+          <div class="news__img-wrapper">
+            <div class="news__img">
+              <img src="./assets/images/section02-img01@2x.png" alt="">
+            </div><!-- /.news-img -->
+            <div class="news__img">
+              <img src="./assets/images/section02-img02@2x.png" alt="">
+            </div><!-- /.news-img -->
+            <div class="news__img">
+              <img src="./assets/images/section02-img03@2x.png" alt="">
+            </div><!-- /.news-img -->
+            <div class="news__img">
+              <img src="./assets/images/section02-img04@2x.png" alt="">
+            </div><!-- /.news-img -->
+            <div class="news__img">
+              <img src="./assets/images/section02-img05@2x.png" alt="">
+            </div><!-- /.news-img -->
+            <div class="news__img">
+              <img src="./assets/images/section02-img06@2x.png" alt="">
+            </div><!-- /.news-img -->
+            <div class="news__img">
+              <img src="./assets/images/section02-img07@2x.png" alt="">
+            </div><!-- /.news-img -->
+            <div class="news__img">
+              <img src="./assets/images/section02-img08@2x.png" alt="">
+            </div><!-- /.news-img -->
+          </div>
 
 
-      <h2 class="news__ttl">お知らせ</h2>
+          <h2 data-splitting class="news__ttl text">お知らせ</h2>
 
-      <div class="news__content">
-        <time class="news__date" datetime="2019.04.04">2019/04/04</time>
-        <h3 class="news__content-ttl">お知らせタイトル</h3>
-        <p class="news__content-txt">
+          <div class="news__content wow fadeIn" data-wow-delay="1.5s">
+            <time class="news__date" datetime="2019.04.04">2019/04/04</time>
+            <h3 class="news__content-ttl">お知らせタイトル</h3>
+            <p class="news__content-txt">
           お知らせテキスト書体やレイアウト
           などを確認するために用います。
         </p>
-      </div><!-- /.news__body -->
+          </div><!-- /.news__body -->
 
-      <div class="news__content">
-      <time class="news__date" datetime="2019.04.04">2019/04/04</time>
-      <h3 class="news__content-ttl">お知らせタイトル</h3>
-      <p class="news__content-txt">
+          <div class="news__content wow fadeIn" data-wow-delay="1.5s">
+            <time class="news__date" datetime="2019.04.04">2019/04/04</time>
+            <h3 class="news__content-ttl">お知らせタイトル</h3>
+            <p class="news__content-txt">
         お知らせテキスト書体やレイアウト
         などを確認するために用います。
         主に書籍やウェブページなどのデザイン
         を作成する時によく使われます。　
       </p>
-    </div><!-- /.news__content -->
+          </div><!-- /.news__content -->
 
-      <div class="news__content">
-      <time class="news__date" datetime="2019.04.04">2019/04/04</time>
-      <h3 class="news__content-ttl">お知らせタイトルテキスト</h3>
-      <p class="news__content-txt">お知らせテキスト書体やレイアウト
+          <div class="news__content wow fadeIn" data-wow-delay="1.5s">
+            <time class="news__date" datetime="2019.04.04">2019/04/04</time>
+            <h3 class="news__content-ttl">お知らせタイトルテキスト</h3>
+            <p class="news__content-txt">お知らせテキスト書体やレイアウト
         などを確認するために用います。
       </p>
-    </div><!-- /.news__content -->
-      </div><!-- /.wrap -->
+          </div><!-- /.news__content -->
+        </div><!-- /.wrap -->
 
-      <!-- <img src="./assets/images/br03@2x.png" alt=""> -->
-  </section>
+        <!-- <img src="./assets/images/br03@2x.png" alt=""> -->
+      </section>
 
-    <!-- ===============================================
+      <!-- ===============================================
     recommend
   ================================================ -->
 
-  <section class="recommend">
-    <div class="wrap">
-    <div class="recommend__content">
+      <section class="recommend">
+        <div class="wrap">
+          <div class="recommend__content">
 
-      <div class="recommend__body">
-        <h2 class="recommend__ttl">
+            <div class="recommend__body">
+              <h2 class="recommend__ttl">
           タイトルテキスト
         </h2>
-        <p class="recommend__txt">書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
+              <p class="recommend__txt">書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。</p>
 
-        <p class="recommend__txt">主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。なお、組見本の「組」とは文字組のことです。活字印刷時代の用語だったと思います。このダミーテキストは自由に改変することが出来ます。主に書籍やウェブページなどのデザインを作成する時によく使われます。</p>
-      </div><!-- /.recommend__body -->
-    </div><!-- /.recommend__content -->
-  </div><!-- /.wrap -->
-  <div class="recommend-img-deco">
-    <img src="./assets/images/main-img-bottom02@2x.png" alt="">
-  </div><!-- /.outline-img-deco -->
-  <div class="recommend-img-deco2">
-    <img src="./assets/images/main-img-bottom03@2x.png" alt="">
-  </div><!-- /.outline-img-deco -->
-  <div class="br03-wrapper wow slideInLeft" data-wow-duration="6s">
-    <img src="./assets/images/br03@2x.png" alt="">
-  </div><!-- /.br02-wrapper -->
-  </section>
+              <p class="recommend__txt">主に書籍やウェブページなどのデザインを作成する時によく使われます。これは正式な文章の代わりに入れて使うダミーテキストです。なお、組見本の「組」とは文字組のことです。活字印刷時代の用語だったと思います。このダミーテキストは自由に改変することが出来ます。主に書籍やウェブページなどのデザインを作成する時によく使われます。</p>
+            </div><!-- /.recommend__body -->
+          </div><!-- /.recommend__content -->
+        </div><!-- /.wrap -->
+        <div class="recommend-img-deco">
+          <img src="./assets/images/main-img-bottom02@2x.png" alt="">
+        </div><!-- /.outline-img-deco -->
+        <div class="recommend-img-deco2">
+          <img src="./assets/images/main-img-bottom03@2x.png" alt="">
+        </div><!-- /.outline-img-deco -->
+        <div class="br03-wrapper wow slideInLeft" data-wow-duration="6s">
+          <img src="./assets/images/br03@2x.png" alt="">
+        </div><!-- /.br02-wrapper -->
+      </section>
 
-</main>
+    </main>
 
     <!-- ===============================================
     footer
   ================================================ -->
-<footer class="footer">
-  <div class="footer-wrap">
-    <div class="footer-left">
-      <address class="footer__address">
-      <div class="footer__logo">
-        <a href="#" class="logo__secondary">LOGO</a>
-      </div>
-      <!-- /.footer__logo -->
-      <p class="footer__address-content">
+    <footer class="footer">
+      <div class="footer-wrap">
+        <div class="footer-left">
+          <address class="footer__address">
+            <div class="footer__logo">
+              <a href="#" class="logo__secondary">LOGO</a>
+            </div>
+            <!-- /.footer__logo -->
+            <p class="footer__address-content">
         駄三井県駄三井市打御井町1-2-1
       </p>
-      <a href="tel:012-345-6789" class="footer__tel">012-345-6789</a>
-      <a href="fax:012-345-7799" class="footer__tel2">012-345-7799</a>
-      </address>
-      <a href="#" class="footer__btn-map">周辺地図をみる</a>
-    </div><!-- /.footer-left -->
+            <a href="tel:012-345-6789" class="footer__tel">012-345-6789</a>
+            <a href="fax:012-345-7799" class="footer__tel2">012-345-7799</a>
+          </address>
+          <a href="#" class="footer__btn-map">周辺地図をみる</a>
+        </div><!-- /.footer-left -->
 
-    <div class="footer-right">
-      <ul class="footer-nav">
-        <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">1</span></a></li>
-        <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">2</span></a></li>
-        <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">3</span></a></li>
-        <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">4</span></a></li>
-        <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">5</span></a></li>
-        <li class="footer-nav__item"><a href="#">お問い合わせ</a></li>
-      </ul>　
-    </div>
-    <!-- /.footer-right -->
-  </div><!-- /.wrap -->
-  <small class="footer-copyright">&copy; 2019 coding training psd.</small>
-  <div class="br04-wrapper">
-    <img src="./assets/images/br04.png" alt="">
-  </div><!-- /.br04-wrapper -->
-</footer>
+        <div class="footer-right">
+          <ul class="footer-nav">
+            <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">1</span></a></li>
+            <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">2</span></a></li>
+            <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">3</span></a></li>
+            <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">4</span></a></li>
+            <li class="footer-nav__item"><a href="#">メニュー<span class="text-combine">5</span></a></li>
+            <li class="footer-nav__item"><a href="#">お問い合わせ</a></li>
+          </ul>　
+        </div>
+        <!-- /.footer-right -->
+      </div><!-- /.wrap -->
+      <small class="footer-copyright">&copy; 2019 coding training psd.</small>
+      <div class="br04-wrapper">
+        <img src="./assets/images/br04.png" alt="">
+      </div><!-- /.br04-wrapper -->
+    </footer>
 
 
-
-</div><!-- /sitewrap -->
-<script src="./assets/js/jquery-1.11.3.min.js"></script>
-<!-- <script src="./assets/js/swiper.min.js"></script> -->
-<script src="./assets/js/slick.min.js"></script>
-<script src="./assets/js/wow.min.js"></script>
-<script>
-  new WOW().init();
-</script>
-<script src="./assets/js/main.js"></script>
+  </div><!-- /sitewrap -->
+  <script src="./assets/js/jquery-1.11.3.min.js"></script>
+  <!-- <script src="./assets/js/swiper.min.js"></script> -->
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+  <script src="./assets/js/ScrollMagic.min.js"></script>
+  <script src="./assets/js/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
