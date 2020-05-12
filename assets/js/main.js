@@ -127,18 +127,18 @@ $(document).ready(function () {
 		.setTween(text)
 		.addTo(controller);
 })();
-//------------------------------------------
-//scroll text animation2
-//-------------------------------------------
+// //------------------------------------------
+// //scroll text animation2
+// //-------------------------------------------
 
-$(function () {
-	var $allMsg = $('.about__txt-body');
-	var $wordList = $('.about__txt').html().split("");
-	$('.about__txt').html("");
-	$.each($wordList, function (idx, elem) {
-		var newEL = $("<span/>").text(elem).css({ opacity: 0 });
-		newEL.appendTo($allMsg);
-		newEL.delay(idx * 70);
-		newEL.animate({ opacity: 1 }, 1100);
-	});
-});
+// $(function () {
+// 	var $allMsg = $('.about__txt-body');
+// 	var $wordList = $('.about__txt').html().split("");
+// 	$('.about__txt').html("");
+// 	$.each($wordList, function (idx, elem) {
+// 		var newEL = $("<span/>").text(elem).css({ opacity: 0 });
+// 		newEL.appendTo($allMsg);
+// 		newEL.delay(idx * 70);
+// 		newEL.animate({ opacity: 1 }, 1100);
+// 	});
+// });
